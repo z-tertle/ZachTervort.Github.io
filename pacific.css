@@ -1,0 +1,223 @@
+body {
+    background-color: #EAEAEA;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    background-color: #90C7E3;
+    border: 1px solid #000033;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
+}
+
+header {
+    text-align: center;
+    background-color: #002171;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-left: 3em;
+    height: 120px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #ffffff;
+}
+
+header a:visited {
+    color: #ffffff;
+}
+
+header a:hover {
+    color: #90c7e3;
+}
+
+nav {
+
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    width: 160px;
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a:link {
+    color: #5c7fa3;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #a52a2a;
+}
+
+main {
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    overflow: auto;
+}
+
+h2 {
+    color: #1976D2;
+    font-family: georgia, "Times new Roman", serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+dt {
+    color: #002171;
+}
+
+.resort {
+    color: #1976D2;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: georgia, "Times new Roman", serif;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+
+h3 {
+    color: #000033;
+    font-family: georgia, "Times new Roman", serif;
+}
+
+main ul {
+    list-style-image: url(marker.gif);
+}
+
+footer {
+    font-family: georgia, "Times new Roman", serif;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    padding: 2em;
+    background-color: #ffffff;
+    margin-left: 190px;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#homehero {
+    background-image: url(coast2.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#yurthero {
+    background-image: url(yurt.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#trailhero {
+    background-image: url(trail.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border: #3399CC 2px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5em;
+    border: solid #3399CC 2px;
+    text-align: center;
+}
+
+th {
+    padding: 0.5em;
+    border: solid #3399CC 2px;
+
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #BDDFF0;
+}
+
+#special {
+    clear: both;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    width: 500px;
+    padding: 10px;
+}
+
+label {
+    float: left;
+    display: block;
+    width: 140px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
