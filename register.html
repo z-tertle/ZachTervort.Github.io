@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Winston's Cunsultancy Firm :: index</title>
+    <meta charset="utf-8">
+    <link href="Winston.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Winston's Cunsultancy Firm</h1>
+    </header>
+    <div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="program_layout.html">What's in the Program?</a> </li>
+                    <li><a href="register.html">Register</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <div id="portrait">
+                <img src="Winston-portrait.JPEG" height="700" width="550" alt="Our Glorious Corgi General, you may bow">
+            </div>
+        </div>
+    </div>
+    <main>
+        <h2>Reservations For Classes</h2>
+
+        <h3>Contact Us Today!
+
+            Required fields are marked with an asterisk *.</h3>
+
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+            <label for="myFName">* First Name:</label>
+            <input name="myFName" id="myFName" required="required">
+            <label for="myLName">* Last Name:</label>
+            <input name="myLName" id="myLName" required="required">
+            <label for="myEmail">* E-mail:</label>
+            <input type="email" name="myEmail" id="myEmail" required="required">
+            <label for="myPhone">Phone:</label>
+            <input type="tel" maxlength="12" name="myPhone" id="myPhone">
+            <label for="myClass">Class Date Desired:</label>
+            <input type="date" name="myClass" id="myClass">
+            <label for="myDays">Phone:</label>
+            <input type="number" min="1" max="14" name="myDays" id="myDays">
+            <label for="myStrategy">Strategy to learn:</label>
+            <textarea name="myStrategy" id="myStrategy" rows="2" cols="30" required="required"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+
+        <div id="contact">
+            <span class="resort">Pacific Trails Resort</span><br>
+            12010 Pacific Trails Road<br>
+            Zephyr, CA 95555<br>
+            <br>
+            888-555-5555<br>
+            <br>
+        </div>
+    </main>
+    <footer>
+        <small><i>Copyright &copy; 2023 Winston's Cunsultancy Firm<br>
+                <a href="mailto:zach@tervort.com">zach@tervort.com (hooman's email... I have no fingers)</a>
+            </i></small>
+    </footer>
+</body>
+
+</html>
